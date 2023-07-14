@@ -1,0 +1,28 @@
+/**
+    * @name morphael
+    * @version 3
+    * @description h4t1 V3
+    * @author morphael
+    *
+    * @source https://github.com/Kayno0o/vibrant-glass-theme
+**/
+
+
+@import url("https://rawcdn.githack.com/hatimexe/h4t1-theme-discord/53b19968a455573015dd1b2fa098ab1860f60183/discordthemeV3.css");
+.theme-dark {
+    --window-name: "morphael";
+    --window-name-color: rgb(255, 255, 255);
+    --light-opacity: 0.2;
+    --opacity: 0.5;
+    --dark-opacity: 0.75;
+ 
+    --background-url: url('https://initiate.alphacoders.com/images/131/cropped-5120-2880-1319389.jpeg?9792'); 
+    --background-color: 0, 0, 0;
+}
+
+/* BACKGROUND */
+
+.app-2CXKsg>.bg-1QIAus {
+    background: var(--background-url) !important;
+    background-size: cover !important;
+}
