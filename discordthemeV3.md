@@ -1,0 +1,183 @@
+.theme-dark {
+    --text-normal: rgb(255, 255, 255);
+    --header-primary: var(--text-normal);
+    --interactive-normal: var(--text-normal);
+    --interactive-hover: var(--text-normal);
+    --interactive-active: var(--text-normal);
+    --header-secondary: rgb(204, 204, 204);
+    --background-modifier-accent: rgb(187, 187, 187);
+    --text-muted: rgb(187, 187, 187);
+    --text-link: rgb(72, 222, 233);
+    --text-positive: rgb(98, 185, 67);
+    --text-positive-opacity: rgba(98, 255, 67, var(--opacity));
+    --interactive-muted: rgb(70, 70, 70);
+    --guild-header-text-shadow: none;
+    --normal-background: rgba(var(--background-color), var(--opacity));
+    --background-accent: var(--normal-background);
+    --background-primary: var(--normal-background);
+    --background-secondary: var(--normal-background);
+    --background-secondary-alt: var(--normal-background);
+    --background-tertiary: var(--normal-background);
+    --background-floating: var(--normal-background);
+    --scrollbar-auto-thumb: var(--normal-background);
+    --light-background: rgba(var(--background-color), var(--light-opacity));
+    --background-mentioned: var(--light-background);
+    --scrollbar-auto-track: var(--light-background);
+    --dark-background: rgba(var(--background-color), var(--dark-opacity));
+    --notification-color: 250, 100, 150;
+    --notification: rgb(var(--notification-color));
+    --notification-opacity: rgba(var(--notification-color), var(--dark-opacity));
+    --rainbow-gradient-width: 1px;
+    --rainbow-gradient: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 162, 0, 1) 20%, rgba(255, 248, 0, 1) 40%, rgba(0, 255, 64, 1) 60%, rgba(0, 31, 255, 1) 80%, rgba(98, 0, 255, 1) 100%);
+}
+
+
+.titleBar-1it3bQ .wordmark-2u86JB::after {
+    font-family: cursive;
+    letter-spacing: 1px;
+    content: var(--window-name);
+    position: absolute;
+    background: var(--window-name-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 15px;
+    font-weight: bold;
+    top: 5px;
+    left: 5px;
+    width: 250px;
+}
+
+
+.winButton-3UMjdg {
+    position: absolute;
+    top: 4px;
+}
+
+
+.winButton-3UMjdg:nth-child(2) {
+    right: .5rem !important;
+}
+
+
+.modal-1Kmy_E > * {
+    background-color: var(--normal-background) !important;
+}
+
+
+.winButton-3UMjdg:nth-child(3) {
+    right: 2.5rem !important;
+}
+
+
+.winButton-3UMjdg:nth-child(3):hover {
+    background-color: var(--normal-background);
+}
+
+
+.winButton-3UMjdg:nth-child(4) {
+    right: 4.5rem !important;
+}
+
+
+.winButton-3UMjdg:nth-child(4):hover {
+    background-color: var(--normal-background);
+}
+
+
+.flex-2S1XBF.root-SR8cQa,
+.topSectionPlaying-1J5E4n {
+    background-color: var(--light-background) !important;
+}
+
+
+.bd-codeblock-language,
+.bd-codeblock-table > * > * {
+    border: none !important;
+}
+
+
+.topSectionSpotify-1lI0-P {
+    background-color: var(--text-positive-opacity) !important;
+}
+
+
+.profileBanner-1owKI5 {
+    opacity: var(--opacity);
+}
+
+
+.wordmarkWindows-2dq6rw > * {
+    display: none;
+}
+
+
+.actionButton-3W1xZa {
+    background-color: transparent !important;
+    border: 2px solid var(--text-positive);
+    border-radius: 1rem;
+    color: var(--text-normal) !important;
+}
+
+
+.item-1OdjEX:hover,
+.focused-3qFvc8 {
+    background-color: var(--normal-background) !important;
+}
+
+/* backgroundblur */
+.backdrop-2ByYRN {
+    background-color: var(--dark-background) !important;
+}
+
+
+.focusLock-2tveLW > *,
+.flex-2S1XBF {
+    background-color: var(--dark-background) !important;
+}
+
+
+.imageDetails-1t6Zms {
+    background-color: transparent !important;
+}
+
+/* screenshare btt*/
+.footer-31IekZ,
+.container-2zEtSe {
+    justify-content: space-around !important;
+}
+
+/* btt */
+.changeButton-3QdaoH {
+    background-color: var(--normal-background) !important;
+}
+
+/*noborder serverlist */
+.base-2jDfDU,
+.sidebar-1tnWFu {
+    border-radius: 0 !important;
+    padding-right: 0rem !important;
+}
+
+/* serverlist*/
+.wrapper-1_HaEi {
+    padding: 0px;
+}
+
+/* background */
+.uploadModal-2ie9 .app-2CXKsg > .bg-1QIAus {
+    background: var(--background-url) !important;
+    background-size: cover !important;
+}
+
+.theme-dark .scroller-WSmht3,
+.members-3WRCEx,
+.members-3WRCEx > div > div,
+.container-1oAagU,
+.container-1oAagU > div > div {
+    background-color: transparent;
+}
+
+.container-1oAagU > div > div {
+    border: #666 solid 1px;
+}
